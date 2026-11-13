@@ -115,10 +115,14 @@ Testar um produto com IA generativa exige avaliar a **conversa do agente**, não
 
 ---
 
-## ✍️ Artigos & Estudos de Caso
+## ✍️ Estudos de Caso
 
-- *[Artigo no LinkedIn / Medium — a adicionar]*
-- *[Estudo de caso: um bug difícil que investiguei e resolvi — a adicionar]*
+Desafios reais que enfrentei, descritos de forma genérica (sem dados de empresa/cliente):
+- **QA de agente de IA/LLM** — testar a conversa e os guardrails, não só a tela.
+- **Race condition de tenant** sob connection pooler — isolar um bug intermitente pelo código.
+- **Verificação pós-deploy de release train** — confirmar o que foi pra prod por conteúdo, não merge-base.
+
+📄 [`docs/estudos-de-caso.md`](./docs/estudos-de-caso.md)
 
 ---
 
