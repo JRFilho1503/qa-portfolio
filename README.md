@@ -88,13 +88,25 @@ Testar um produto com IA generativa exige avaliar a **conversa do agente**, não
 
 ---
 
-## 🎓 Certificações & Formação
+## 🎓 Formação & Certificações
 
-<!-- Preencher com as suas credenciais. Exemplos de formato: -->
-- *ISTQB Foundation Level (CTFL)* — `[ano]` · *(a confirmar)*
-- *[Curso / formação relevante]* — `[instituição, ano]`
+**Formação**
+- 🎓 **Bacharelado em Sistemas de Informação** — UNINOVE (2020 – 2022)
+- 💻 **Técnico em Informática** — Colégio Eniac (2015 – 2018)
 
-> _Seção pronta para receber suas certificações — é só editar esta parte._
+**Certificações — Qualidade & Ágil**
+- **Scrum Foundation** — Certiprof (2021)
+- **Scrum Fundamentals Certified (SFC)** — Udemy (2021)
+- **Lean Six Sigma** — Udemy (2022)
+- **Gestão Ágil com Scrum** (completo) — Udemy (2022)
+- **BPMN 2.0** — modelagem de processos de negócio
+
+**Cursos — Desenvolvimento & Dados**
+- **Django Master** (Django REST Framework) — Kiwify (2023)
+- **Git e GitHub** — Curso em Vídeo (2023)
+- **Python** (Mundo 1, 2 e 3) — Curso em Vídeo (2022 – 2023)
+- POO em Java · Linguagem C · MySQL · Algoritmos
+- **Power BI para Data Science** — Data Science Academy (2022)
 
 ---
 
