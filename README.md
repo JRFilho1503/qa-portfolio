@@ -68,11 +68,12 @@ Suíte **executável** em TypeScript com **Page Object Model**, dados parametriz
 <br>📁 [`automacao-ui-playwright/`](./automacao-ui-playwright)
 
 ### 🔌 Testes de API
-Validação de **contrato, status codes e CRUD** de uma API REST pública, com asserções de schema e corpo.
-<br>📁 [`api/`](./api)
+Suíte **pytest** contra uma API REST pública: **contrato, status codes e CRUD** (GET/POST/PUT/DELETE), com asserções de schema e corpo.
+<br>📁 [`api/`](./api) · [testes](./api/exemplos/test_jsonplaceholder.py)
 
-### ⚡ Performance *(roadmap)*
-Script k6 de carga/stress contra uma API pública, com relatório de métricas.
+### ⚡ Testes de Performance
+Script **k6** de carga (smoke/load) contra uma API pública, com thresholds de taxa de erro e latência p95.
+<br>📁 [`performance/`](./performance)
 
 ---
 
