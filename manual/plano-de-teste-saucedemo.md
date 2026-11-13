@@ -1,7 +1,7 @@
 # Plano de Teste — Sauce Demo (fluxo de Login e Compra)
 
 > App sob teste: **https://www.saucedemo.com** (ambiente público de demonstração)
-> Autor: [Seu Nome] · Última atualização: [data]
+> Autor: José Roberto Benaglia Filho · Última atualização: 13/11/2026
 
 ## 1. Objetivo
 Garantir que o fluxo crítico de **autenticação** e **compra** da loja funciona conforme o esperado, cobrindo caminho feliz, entradas inválidas e estados de borda.

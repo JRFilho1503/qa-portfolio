@@ -1,13 +1,13 @@
-# 🧪 Portfólio de QA — [Seu Nome]
+# 🧪 Portfólio de QA — José Roberto Benaglia Filho
 
 > **QA Engineer** · Testes Manuais · Automação E2E · Testes de API · QA de produtos com IA/LLM
 
 Bem-vindo(a) ao meu portfólio de Quality Assurance! Aqui você encontra meus projetos de **teste manual, automação e estudos de caso** — da estratégia e desenho de cenários à automação, execução em ambiente real e evidência.
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/[seu-linkedin]">🔗 LinkedIn</a> ·
+  <a href="https://www.linkedin.com/in/nuchobenaglia">🔗 LinkedIn</a> ·
   <a href="https://github.com/JRFilho1503">💻 GitHub</a> ·
-  <a href="mailto:[seu-email]">✉️ E-mail</a>
+  <a href="mailto:nuchobenaglia@gmail.com">✉️ E-mail</a>
 </p>
 
 ---
@@ -86,7 +86,7 @@ aderência ao roteiro · retenção de contexto · **drift** · robustez a varia
 
 ## 📫 Contato
 
-**LinkedIn:** [linkedin.com/in/[seu-linkedin]](https://www.linkedin.com/in/[seu-linkedin]) · **GitHub:** [github.com/[seu-usuario]](https://github.com/[seu-usuario]) · **E-mail:** [seu-email]
+**LinkedIn:** [linkedin.com/in/nuchobenaglia](https://www.linkedin.com/in/nuchobenaglia) · **GitHub:** [github.com/JRFilho1503](https://github.com/JRFilho1503) · **E-mail:** nuchobenaglia@gmail.com
 
 ---
 

@@ -9,7 +9,7 @@
 | **Ambiente** | https://www.saucedemo.com · navegador Chrome 1xx · desktop |
 | **Funcionalidade** | Catálogo de produtos (Inventory) |
 | **Status** | Aberto |
-| **Reportado por** | [Seu Nome] |
+| **Reportado por** | José Roberto Benaglia Filho |
 
 ## Descrição
 Ao logar com o usuário `problem_user`, a página de produtos (`/inventory.html`) carrega **a mesma imagem para todos os itens**, em vez da foto correspondente a cada produto. Os nomes, preços e botões estão corretos — apenas a imagem está errada.
