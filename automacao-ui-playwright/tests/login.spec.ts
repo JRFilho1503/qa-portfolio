@@ -41,7 +41,8 @@ test.describe('Login — Sauce Demo', () => {
    * Com `problem_user`, todas as imagens do catálogo são iguais → o teste falha de propósito,
    * demonstrando como a automação pegaria essa regressão visual.
    */
-  test('BUG-001: imagens do catálogo devem ser distintas (problem_user)', async ({ page }) => {
+  test('BUG-001: imagens do catálogo deveriam ser distintas (problem_user) — bug conhecido', async ({ page }) => {
+    test.fail(true, 'BUG-001: problem_user mostra a mesma imagem em todos os produtos. Enquanto o bug existir, o teste falha como esperado e o CI segue verde; quando corrigido, o CI alerta.');
     await login.login(USERS.problem.username, PASSWORD);
     const inventory = new InventoryPage(page);
     await inventory.expectLoaded();
