@@ -1,0 +1,57 @@
+<style>
+  /* ===== Botão de troca de tema ===== */
+  #theme-toggle{
+    position:fixed; top:14px; right:14px; z-index:1000; cursor:pointer;
+    border:1px solid rgba(255,255,255,.35); border-radius:999px;
+    padding:7px 13px; font-size:13px; font-weight:600; line-height:1;
+    background:rgba(0,0,0,.28); color:#fff; backdrop-filter:blur(6px);
+    transition:background .2s, transform .1s;
+  }
+  #theme-toggle:hover{ background:rgba(0,0,0,.45); }
+  #theme-toggle:active{ transform:scale(.96); }
+
+  /* ===== Tema escuro (sobrescreve o Cayman) ===== */
+  html[data-theme="dark"] body{ background:#0d1117; color:#c9d1d9; }
+  html[data-theme="dark"] .main-content{ color:#c9d1d9; }
+  html[data-theme="dark"] .main-content h1,
+  html[data-theme="dark"] .main-content h2,
+  html[data-theme="dark"] .main-content h3,
+  html[data-theme="dark"] .main-content h4,
+  html[data-theme="dark"] .main-content h5,
+  html[data-theme="dark"] .main-content h6{ color:#e6edf3; }
+  html[data-theme="dark"] .main-content h2,
+  html[data-theme="dark"] .main-content h1{ border-bottom-color:#30363d; }
+  html[data-theme="dark"] .main-content a{ color:#58a6ff; }
+  html[data-theme="dark"] .main-content code{ background:#161b22; color:#c9d1d9; }
+  html[data-theme="dark"] .main-content pre{ background:#161b22; }
+  html[data-theme="dark"] .main-content pre code{ background:transparent; }
+  html[data-theme="dark"] .main-content blockquote{ color:#8b949e; border-left-color:#30363d; }
+  html[data-theme="dark"] .main-content table th,
+  html[data-theme="dark"] .main-content table td{ border-color:#30363d; }
+  html[data-theme="dark"] .main-content table tr{ background:#0d1117; border-top-color:#21262d; }
+  html[data-theme="dark"] .main-content table tr:nth-child(2n){ background:#161b22; }
+  html[data-theme="dark"] .main-content hr{ background-color:#30363d; }
+</style>
+<script>
+  (function(){
+    var KEY = 'qa-portfolio-theme';
+    function apply(t){ document.documentElement.setAttribute('data-theme', t); }
+    var saved = null;
+    try { saved = localStorage.getItem(KEY); } catch(e){}
+    var initial = saved || ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light');
+    apply(initial);
+    document.addEventListener('DOMContentLoaded', function(){
+      var btn = document.createElement('button');
+      btn.id = 'theme-toggle';
+      btn.setAttribute('aria-label', 'Alternar tema claro/escuro');
+      function label(){ btn.textContent = (document.documentElement.getAttribute('data-theme') === 'dark') ? '☀️ Claro' : '🌙 Escuro'; }
+      label();
+      btn.addEventListener('click', function(){
+        var next = (document.documentElement.getAttribute('data-theme') === 'dark') ? 'light' : 'dark';
+        apply(next); label();
+        try { localStorage.setItem(KEY, next); } catch(e){}
+      });
+      document.body.appendChild(btn);
+    });
+  })();
+</script>
