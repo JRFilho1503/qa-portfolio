@@ -1,0 +1,23 @@
+# Node / Playwright
+node_modules/
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ambiente / segredos
+.env
+.env.local
+*.local
+
+# SO / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
